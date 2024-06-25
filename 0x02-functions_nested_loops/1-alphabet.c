@@ -16,5 +16,4 @@ for (n = 0; n < 29; n++)
 }
 _putchar('\n');
 }
-return (0);
 }
