@@ -10,7 +10,7 @@ void print_alphabet(void)
 {
 int n;
 {
-for (n = 0; n < 27; n++)
+for (n = 0; n < 26; n++)
 {
 	_putchar("abcdefghijklmnopqrstuvwxyz"[n]);
 }
