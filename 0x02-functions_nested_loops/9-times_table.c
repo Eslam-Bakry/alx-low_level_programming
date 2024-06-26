@@ -2,17 +2,17 @@
 
 /**
 * times_table - Entry point
-* @n : the number to be calculated
+*
 * Return: Always 0 (Success)
 */
 
-void times_table(n)
+void times_table(void)
 {
 int x, y;
 
-	for (x = 1; x <= n; x++)
+	for (x = 1; x <= 9; x++)
 	{
-		for (y = 1; y <= n; y++)
+		for (y = 1; y <= 9; y++)
 		{
 			int z = x * y;
 
