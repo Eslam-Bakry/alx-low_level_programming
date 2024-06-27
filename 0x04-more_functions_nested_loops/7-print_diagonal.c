@@ -28,6 +28,5 @@ for (c = 0; c < n; c++)
 	number_of_spaces++;
 	}
 }
-_putchar('\n');
 
 }
