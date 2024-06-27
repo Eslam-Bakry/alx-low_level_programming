@@ -15,6 +15,10 @@ for (c = 0; n < c; c++)
 	{
 	_putchar(95);
 	}
+	else
+	{
+		break;
+	}
 }
 _putchar('\n');
 }
