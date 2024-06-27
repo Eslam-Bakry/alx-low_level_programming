@@ -13,7 +13,7 @@ for (c = 0; n < c; c++)
 {
 	if (n > 0)
 	{
-	_putchar('_');
+	_putchar(95);
 	}
 }
 _putchar('\n');
