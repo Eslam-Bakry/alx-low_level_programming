@@ -17,7 +17,7 @@ for (c = 0; n == c; c++)
 	{
 		_putchar('\n');
 	}
-	for (x  = 0; x < number_of_spaces; x++)
+	for (x  = 0; x <= number_of_spaces; x++)
 	{
 		_putchar(' ');
 	}
