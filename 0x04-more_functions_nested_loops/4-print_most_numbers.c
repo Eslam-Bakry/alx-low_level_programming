@@ -9,7 +9,7 @@
 void print_most_numbers(void)
 {
 int n;
-{
+
 for (n = 0; n < 10; n++)
 {
 	if (n == 4 || n == 2)
@@ -19,5 +19,5 @@ for (n = 0; n < 10; n++)
 	_putchar("0123456789"[n]);
 }
 _putchar('\n');
-}
+
 }
