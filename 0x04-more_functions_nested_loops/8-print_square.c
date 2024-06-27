@@ -9,8 +9,8 @@ void print_square(int size)
 {
 	int height = size;
 	int width = size;
-	int height_counter;
-	int width_counter;
+	int h_c;
+	int w_c;
 
 	if (size <= 0)
 	{
@@ -18,9 +18,9 @@ void print_square(int size)
 	}
 	else
 	{
-		for (height_counter; height_counter < height; height_counter++)
+		for (h_c = 0; h_c < height; h_c++)
 		{
-			for (width_counter; width_counter < width; width_counter++)
+			for (w_c = 0; w_c < width; w_c++)
 			{
 				_putchar('#');
 			}
