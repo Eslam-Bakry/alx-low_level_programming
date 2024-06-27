@@ -27,7 +27,7 @@ for (c = 0; c < n; c++)
 	_putchar('\n');
 	number_of_spaces++;
 	}
-_putchar('\n');
 }
+_putchar('\n');
 
 }
