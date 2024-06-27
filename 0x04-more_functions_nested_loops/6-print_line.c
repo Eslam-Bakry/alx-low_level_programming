@@ -9,16 +9,16 @@
 void print_line(int n)
 {
 int c;
-for (c = 0; n == c; c++)
+if (n <= 0)
 {
-	if (n > 0)
-	{
+	_putchar('\n');
+}
+else
+{
+for (c = 0; n < c; c++)
+{
 	_putchar(95);
-	}
-	else
-	{
-		break;
-	}
 }
 _putchar('\n');
+}
 }
