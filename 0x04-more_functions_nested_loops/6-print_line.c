@@ -8,8 +8,8 @@
 
 void print_line(int n)
 {
-
-for (int c = 0; n == c; c++)
+int c;
+for (c = 0; n == c; c++)
 {
 	if (n < 0 || n == 0)
 	{
