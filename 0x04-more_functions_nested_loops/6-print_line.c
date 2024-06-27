@@ -9,7 +9,7 @@
 void print_line(int n)
 {
 int c;
-for (c = 0; n < c; c++)
+for (c = 0; n == c; c++)
 {
 	if (n > 0)
 	{
