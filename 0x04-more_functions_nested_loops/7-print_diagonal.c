@@ -19,7 +19,7 @@ for (c = 0; c < n; c++)
 	}
 	else
 	{
-	for (x  = 0; x <= number_of_spaces; x++)
+	for (x  = 0; x < number_of_spaces; x++)
 	{
 		_putchar(' ');
 	}
