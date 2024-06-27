@@ -15,7 +15,7 @@ if (n <= 0)
 }
 else
 {
-for (c = 0; n < c; c++)
+for (c = 0; c < n; c++)
 {
 	_putchar(95);
 }
