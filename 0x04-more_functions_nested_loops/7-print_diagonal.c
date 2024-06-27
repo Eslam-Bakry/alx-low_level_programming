@@ -11,12 +11,14 @@ void print_diagonal(int n)
 int number_of_spaces = 1;
 int c;
 int x;
-for (c = 0; n == c; c++)
+for (c = 0; c < n; c++)
 {
-	if (n < 0 || n == 0)
+	if (n <= 0)
 	{
 		_putchar('\n');
 	}
+	else
+	{
 	for (x  = 0; x <= number_of_spaces; x++)
 	{
 		_putchar(' ');
@@ -24,6 +26,7 @@ for (c = 0; n == c; c++)
 	_putchar('\\');
 	_putchar('\n');
 	number_of_spaces++;
-}
+	}
 _putchar('\n');
+}
 }
