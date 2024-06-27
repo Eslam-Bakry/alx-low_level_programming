@@ -12,9 +12,9 @@ int n;
 int i;
 for (i = 0; i <= 9; i++)
 {
-for (n = 0; n < 15; n++)
+for (n = 0; n < 21; n++)
 {
-	_putchar("0123456789"[n]);
+	_putchar("01234567891011121314"[n]);
 }
 _putchar('\n');
 }
