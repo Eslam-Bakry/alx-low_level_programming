@@ -24,4 +24,5 @@ int main(void)
 			number = divider;
 		}
 	}
+	return (0);
 }
