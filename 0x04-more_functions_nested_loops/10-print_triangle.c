@@ -9,8 +9,6 @@
 void print_triangle(int size)
 {
 	int counter1, counter2, counter3;
-	int spaces = size;
-	int hashs = 0;
 
 	if (size <= 0)
 	{
@@ -28,6 +26,7 @@ void print_triangle(int size)
 		{
 			_putchar('#');
 		}
+		_putchar('\n');
 	}
 	}
 }
