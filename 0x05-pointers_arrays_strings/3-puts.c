@@ -16,5 +16,4 @@ while (*(str + i) != '\0')
 	i++;
 }
 _putchar('\n');
-return (0);
 }
