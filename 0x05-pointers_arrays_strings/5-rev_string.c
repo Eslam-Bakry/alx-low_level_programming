@@ -24,6 +24,4 @@ for (j = 0; j < i; j++)
 	s[j] = s[i];
 	s[i] = temp;
 }
-
-_putchar('\n');
 }
