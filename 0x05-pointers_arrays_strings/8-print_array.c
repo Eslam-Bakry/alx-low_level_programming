@@ -1,4 +1,5 @@
 #include "main.h"
+#include  <stdio.h>
 /**
  * print_array - print in an array
  * @a: array name
