@@ -17,7 +17,7 @@ if (counter == (n - 1))
 {
 _putchar(a[n - 1]);
 }
-_putchar("\n");
+_putchar('\n');
 
 
 }
