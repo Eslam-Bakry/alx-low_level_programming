@@ -14,7 +14,8 @@ for (i = 0; i < n; i++)
 {
 	if (i != 0)
 	{
-		_putchar(', ');
+		_putchar(',');
+		_putchar(' ');
 	}
 	_putchar(*(a + i));
 }
