@@ -17,9 +17,9 @@ while (*(s + i) != '\0')
 	i++;
 }
 
-for (j; j < i; i--)
+for (j; j < i; j++)
 {
-	j++;
+	i--;
 	temp = s[j];
 	s[j] = s[i];
 	s[i] = temp;
