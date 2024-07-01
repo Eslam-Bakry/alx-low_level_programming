@@ -8,16 +8,15 @@
 
 void print_array(int *a, int n)
 {
-int counter;
-for (counter = 0; counter < (n - 1); counter++)
+int i;
+
+for (i = 0; i < n; i++)
 {
-_putchar(*(a + counter));
-}
-if (counter == (n - 1))
-{
-_putchar(*(a + (n - 1)));
+	if (i != 0)
+	{
+		_putchar(',');
+	}
+	_putchar(*(a + i));
 }
 _putchar('\n');
-
-
 }
