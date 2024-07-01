@@ -22,12 +22,12 @@ if (i % 2 == 0)
 }
 else
 {
-n = (i + 1) / 2;
+	n = (i + 1) / 2;
 }
 
 for (j = n; j < i; j++)
 {
-_putchar(str[j]);
+	_putchar(str[j]);
 }
 _putchar('\n');
 }
