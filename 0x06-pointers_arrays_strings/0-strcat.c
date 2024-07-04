@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * *_strcat - check codes
+ * *_strcat - check code
  * @dest: first string to be concatenated
  * @src: second string to be concatenated
- * Return: On success 0
+ * Return: On success dest
  */
 
 char *_strcat(char *dest, char *src)
