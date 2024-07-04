@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *string_toupper - check codes
+ * *string_toupper - check code
  * @str: string to be changed
  * Return: On success str
  */
